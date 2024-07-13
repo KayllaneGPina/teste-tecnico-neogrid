@@ -18,9 +18,9 @@ cd src\principal
 ```
 3. Execute a classe `Main`
 4. Vá até o site da Netshoes e escolha um produto de sua preferencia, copie a URL e cole na aplicação. Exemplo:
-![exemplo-url.png](./resources/exemplo-url.png)
+![exemplo-url.png](./resources/exemplo-url-2.png)
 5. O resultado será:
-![resultado.png](./resources/resultado.png)
+![resultado.png](./resources/resultado-2.png)
 
 ---
 
