@@ -1,7 +1,7 @@
 package model;
 
 public class Produto {
-    private String nome;
+    private String titulo;
     private String preco;
     private String imageUrl;
     private String descricao;
@@ -9,19 +9,19 @@ public class Produto {
     public Produto() {
     }
 
-    public Produto(String nome, String preco, String imageUrl, String descricao) {
-        this.nome = nome;
+    public Produto(String titulo, String preco, String imageUrl, String descricao) {
+        this.titulo = titulo;
         this.preco = preco;
         this.imageUrl = imageUrl;
         this.descricao = descricao;
     }
 
-    public String getNome() {
-        return nome;
+    public String getTitulo() {
+        return titulo;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
     }
 
     public String getPreco() {
@@ -51,7 +51,7 @@ public class Produto {
 
     @Override
     public String toString() {
-        return "Nome: " + nome + '\n' +
+        return "Titulo: " + titulo + '\n' +
                 "Preco: " + preco + '\n' +
                 "Imagem: " + imageUrl + '\n' +
                 "Descrição: " + descricao;

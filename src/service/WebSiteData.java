@@ -14,8 +14,8 @@ public class WebSiteData {
         try {
             Document doc = Jsoup.connect(url).get();
 
-            String nome = doc.select("h1.product-name").text();
-            produtos.setNome(nome);
+            String titulo = doc.select("h1.product-name").text();
+            produtos.setTitulo(titulo);
 
             String preco = doc.select("span.listInCents-value").first().text();
             produtos.setPreco(preco);
